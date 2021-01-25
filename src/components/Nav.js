@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = () => {
@@ -14,26 +15,26 @@ const Nav = () => {
 				aria-label='Toggle navigation'>
 				<span className='navbar-toggler-icon'></span>
 			</button>
-			<a className='navbar-brand' href='/'>
+			<Link className='navbar-brand ' to='/'>
 				Logo
-			</a>
+			</Link>
 
 			<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 				<ul className='navbar-nav mr-auto ml-auto'>
 					<li className='nav-item mx-3'>
-						<a className='nav-link' href='/venues'>
+						<Link to='/venues' class='text-link'>
 							Venues
-						</a>
+						</Link>
 					</li>
 					<li className='nav-item mx-3'>
-						<a className='nav-link' href='/media'>
+						<Link to='/media' class='text-link'>
 							Media
-						</a>
+						</Link>
 					</li>
 					<li className='nav-item mx-3'>
-						<a href='/contact' className='nav-link'>
+						<Link to='/contact' class='text-link'>
 							Contact Us
-						</a>
+						</Link>
 					</li>
 				</ul>
 				<form className='form-inline my-2 my-lg-0'>

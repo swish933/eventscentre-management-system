@@ -2,6 +2,14 @@
 	background-color: black;
 	font-weight: bold;
 }
+.text-link {
+	color: gray;
+	text-decoration: none;
+}
+
+.text-link:hover {
+	color: lightgrey;
+}
 
 .btn-color {
 	color: white;
@@ -14,7 +22,7 @@
 
 @media screen and (min-width: 100px) {
 	.nav {
-		font-size: 13px;
+		font-size: 14px;
 	}
 }
 @media screen and (min-width: 576px) {
