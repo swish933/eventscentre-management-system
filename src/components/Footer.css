@@ -1,0 +1,16 @@
+.bg-footer {
+	background-color: black;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 100px) {
+	.footer {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.footer {
+		font-size: 14px;
+	}
+}

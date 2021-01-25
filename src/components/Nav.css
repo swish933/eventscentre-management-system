@@ -1,0 +1,36 @@
+.bg-nav {
+	background-color: black;
+	font-weight: bold;
+}
+
+.btn-color {
+	color: white;
+	border: 2px solid white;
+}
+
+.btn-color:hover {
+	color: lightblue;
+}
+
+@media screen and (min-width: 100px) {
+	.nav {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 576px) {
+	.nav {
+		font-size: 14px !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.nav {
+		font-size: 16px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav {
+		font-size: 17px !important;
+	}
+}
