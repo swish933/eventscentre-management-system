@@ -29,7 +29,7 @@ const Home = () => {
 					</button>
 				</div>
 			</div>
-			<Waypoint onEnter={handleWaypointEnter} bottomOffset='10%' />
+			<Waypoint onEnter={handleWaypointEnter} bottomOffset='36%' />
 			<CSSTransition classNames='company' timeout={700} in={point}>
 				<div className='home__about container-fluid p-4 my-3 text-center text-lg-left d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center'>
 					<div className='info container-md'>
