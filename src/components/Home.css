@@ -1,7 +1,3 @@
-/* .home {
-	font-size: 14px;
-} */
-
 .home__banner {
 	width: 100%;
 }
@@ -46,6 +42,20 @@
 	width: 130px;
 	height: auto;
 	margin: 30px;
+}
+
+.company-enter {
+	opacity: 0.3;
+	transform: scale(0.3);
+}
+
+.company-enter-active {
+	opacity: 0.7;
+	transform: scale(1);
+	transition: all 700ms ease-in;
+}
+.company-enter-done {
+	opacity: 1;
 }
 
 @media screen and (min-width: 100px) {
