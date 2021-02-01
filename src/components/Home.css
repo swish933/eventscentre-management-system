@@ -7,7 +7,7 @@
 }
 
 .home__banner > img {
-	width: 100%;
+	max-width: 100%;
 	min-height: 400px;
 	object-fit: cover;
 }
@@ -39,6 +39,7 @@
 	width: 100%;
 	min-height: 380px;
 	object-fit: cover;
+	border-radius: 7px;
 }
 
 .home__clients img {
@@ -58,11 +59,11 @@
 }
 @media screen and (min-width: 576px) {
 	.home__contact {
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	.home__about {
-		font-size: 17px;
+		font-size: 16px;
 	}
 }
 
