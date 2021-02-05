@@ -45,10 +45,11 @@ const Home = () => {
 						our clients needs in mind whenever we do business.
 					</p>
 				</div>
-				<div className='image container-md'>
+				<div className='image container-md mt-3 mt-md-0'>
 					<img src='/images/fireworks.jpg' alt='fireworks' />
 				</div>
 			</div>
+
 			<div className='home__clients my-5'>
 				<h2 className='text-center text-uppercase'>Partners</h2>
 				<div className='container-sm d-flex flex-wrap my-3 justify-content-center justify-content-lg-between align-items-center'>
