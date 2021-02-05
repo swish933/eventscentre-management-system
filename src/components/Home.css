@@ -33,13 +33,14 @@
 
 .home__about img {
 	width: 100%;
-	min-height: 380px;
+	min-height: 350px;
 	object-fit: cover;
 	border-radius: 7px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 1.19);
 }
 
 .home__clients img {
-	width: 130px;
+	width: 120px;
 	height: auto;
 	margin: 30px;
 }
