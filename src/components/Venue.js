@@ -5,9 +5,10 @@ import { Rating } from '@material-ui/lab';
 const Venue = ({ imageUrl, description, rating, price, name }) => {
 	return (
 		<div className='venue row mx-3'>
-			<div className='venue__image px-2 px-4-lg col-md-7 '>
+			<div className='venue__image px-2 px-4-lg col-md-6 '>
 				<img src={imageUrl} alt={name} />
 			</div>
+			<div className='col-md-1'></div>
 			<div className='venue__details px-3 d-flex flex-column justify-content-around col-md-5'>
 				<p className='text-capitalize'>{name}</p>
 				<p>{description}</p>

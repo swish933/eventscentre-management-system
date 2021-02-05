@@ -5,7 +5,7 @@ import venueData from '../data';
 
 const Venues = () => {
 	return (
-		<div className='venues p-2 p-md-3 p-lg-5'>
+		<div className='venues p-2 p-md-3 p-lg-5 mt-3'>
 			<div className='container w-75 p-3 text-center'>
 				<p className='text-capitalize display-4'>More than a venue</p>
 				<p className='venues__info'>
@@ -19,6 +19,7 @@ const Venues = () => {
 					and today, ICC Sydney is so much more than a venue.
 				</p>
 			</div>
+
 			{venueData.map(({ imageUrl, description, price, rating, name }) => (
 				<Venue
 					imageUrl={imageUrl}
