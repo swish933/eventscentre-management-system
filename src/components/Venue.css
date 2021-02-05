@@ -13,8 +13,12 @@
 
 .venue__details {
 	height: 200px;
-	border-radius: 6px;
-	border: 1px solid gray;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.venue__details > p:first-child {
+	font-size: 1.7rem;
 }
 
 .venue__image img {
@@ -22,5 +26,5 @@
 	object-fit: cover;
 	height: 330px;
 	min-height: 300px;
-	border-radius: 6px;
+	border-radius: 4px;
 }
