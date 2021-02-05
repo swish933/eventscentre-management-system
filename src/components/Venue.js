@@ -25,7 +25,7 @@ const Venue = ({ imageUrl, description, rating, price, name }) => {
 					<p>${price}/Hr</p>
 				</div>
 			</div>
-			<hr className='w-100 my-5 mx-lg-3' />
+			<hr className='w-100 my-5 mx-lg-5' />
 		</div>
 	);
 };
