@@ -21,13 +21,15 @@ const Venues = () => {
 			</div>
 
 			{venueData.map(({ imageUrl, description, price, rating, name }) => (
-				<Venue
-					imageUrl={imageUrl}
-					description={description}
-					price={price}
-					rating={rating}
-					name={name}
-				/>
+				<div>
+					<Venue
+						imageUrl={imageUrl}
+						description={description}
+						price={price}
+						rating={rating}
+						name={name}
+					/>
+				</div>
 			))}
 		</div>
 	);

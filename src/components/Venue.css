@@ -3,6 +3,13 @@
 	margin-bottom: 90px;
 }
 
+.venue__details .btn {
+	color: white;
+	background-color: rgb(56, 64, 66);
+	border-radius: 5px;
+	font-weight: 500;
+}
+
 .venue hr {
 	border-color: gray;
 }
