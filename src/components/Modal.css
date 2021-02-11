@@ -19,16 +19,13 @@
 	transform: translate(-50%, -50%);
 }
 
-.modal-main p {
+.modal-main p:first-child {
+	float: right;
 	font-size: 18px;
 	padding: 2px 11px;
 	color: white;
 	background-color: rgb(56, 64, 66) !important;
 	margin: 5px;
-}
-
-.modal-main p:first-child {
-	float: right;
 }
 
 .modal-main p:first-child::after {
@@ -45,11 +42,23 @@
 	display: block;
 }
 
-/* @media screen and (min-width: 576px) {
-	.modal-dialog {
+@media screen and (min-width: 100px) {
+	.modal-main {
 		width: 100%;
-		top: 0%;
+		height: 100%;
+		top: 10%;
 		left: 0%;
 		transform: translate(0, 0);
 	}
-} */
+}
+
+@media screen and (min-width: 676px) {
+	.modal-main {
+		width: 83%;
+		height: auto;
+		top: 20%;
+		left: 50%;
+		z-index: 1000;
+		transform: translate(-50%, -50%);
+	}
+}
