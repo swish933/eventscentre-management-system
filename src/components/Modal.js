@@ -4,9 +4,9 @@ import './Modal.css';
 const Modal = ({ children, show, handleClose }) => {
 	const visibility = show ? 'modal display--block' : 'modal display--none';
 	return (
-		<div className={visibility}>
+		<div className={visibility} onClick={handleClose}>
 			<section className='modal-main'>
-				<p className=' btn' onClick={handleClose}>
+				<p className='btn' onClick={handleClose}>
 					&times;
 				</p>
 				{children}
